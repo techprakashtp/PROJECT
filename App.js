@@ -25,10 +25,10 @@ export default class App extends Component {
         if(snapshort.val().password==password){
           Alert.alert('Login Success')
         } else {
-          Alert.alert('Wrong Password')
+          Alert.alert('Wrong password')
         }
       } else {
-        Alert.alert('Wrong UserName')
+        Alert.alert('Wrong user name')
       }
       
      });
